@@ -103,7 +103,7 @@ std::string Pabellon::toString()
 			"Cantidad: " + std::to_string(cantidad) + " \n"
 			"Cama: ";
 	for (int i = 0; i < tamano; i++) {
-		report = report + cama[i]->getCodigo() + ", ";
+		report = report + cama[i]->toString() + ", ";
 	}
 	report = report + "\n";
 	return report;

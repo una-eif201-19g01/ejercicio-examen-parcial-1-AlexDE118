@@ -40,14 +40,21 @@ void Cama::setEstado(bool _estado)
 	estado = estado;
 }
 
-/*
 std::string Cama::toString()
 {
-	std::ostringstream *report;
-	const Cama &cama;
-	report << "Codigo: "<
+	std::string reporte;
+	
+	reporte = "Codigo: " + getCodigo() + " ";
+	if (isEstado == false)
+	{
+		reporte = reporte + "Estado: False";
+	}
+	else
+		reporte = reporte + "Estado: True";
+
+	return reporte
 }
-*/
+
 
 
 
