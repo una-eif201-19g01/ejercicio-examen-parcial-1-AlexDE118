@@ -19,9 +19,9 @@ class Pabellon {
 public:
     Pabellon();
 
-    Pabellon(int tamano);
+    Pabellon(int _tamano);
 
-    Pabellon(char id, char genero, int tamano);
+    Pabellon(char _id, char _genero, int _tamano);
 
     virtual ~Pabellon();
 
@@ -35,19 +35,19 @@ public:
 
     char getId() const;
 
-    void setId(char id);
+    void setId(char _id);
 
     char getGenero() const;
 
-    void setGenero(char genero);
+    void setGenero(char _genero);
 
     int getTamano() const;
 
-    void setTamano(int tamano);
+    void setTamano(int _tamano);
 
     int getCantidad() const;
 
-    void setCantidad(int cantidad);
+    void setCantidad(int _cantidad);
 
     std::string toString();
 

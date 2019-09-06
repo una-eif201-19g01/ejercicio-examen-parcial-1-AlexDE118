@@ -8,6 +8,7 @@
 #include <ostream>
 #include "string"
 
+
 class Cama {
     std::string codigo;
     bool estado;
@@ -25,7 +26,7 @@ public:
 
     bool isEstado() const;
 
-    void setEstado(bool estado);
+    void setEstado(bool _estado);
 
     // Método toString
     std::string toString();
